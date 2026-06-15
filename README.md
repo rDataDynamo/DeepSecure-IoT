@@ -63,19 +63,7 @@ pip install -r requirements.txt
 
 ### STEP 5 — Set up MySQL Database
 
-Open **MySQL Workbench** or **MySQL Command Line** and run:
-
-```sql
-CREATE DATABASE blockchain_iot;
-```
-
-> ⚠️ Make sure MySQL is running on port **3306** with:
-> - Username: `root`
-> - Password: `1278`
->
-> If your password is different, update it in `blackchine_project/settings.py` → `DATABASES` section.
-
----
+Open **MySQL Workbench** or **MySQL Command Line** 
 
 ### STEP 6 — Run database migrations (creates all tables)
 
